@@ -11,3 +11,41 @@ header{position:sticky;top:0;width: 100%;
   font-family:sans-serif-smallcaps;margin:0px;
 text-align: center;}
 p{font-family:head;}
+div.scrollmenu {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+
+}
+
+div.scrollmenu a {
+
+  display: inline-block;
+  color: white;;
+  background-color:red;
+  border:1px solid red;
+  border-radius:30px 30px;
+  text-align: center;
+  padding: 14px;
+  margin:4px;
+  text-decoration: none;
+    background-image: conic-gradient(#B71C1C,#BF360C,#880E4F,#1A237E,#3E2723);
+}
+/* Recharge */
+h2 span {
+  border-bottom: 1px solid red;
+  padding-bottom: 10px;
+}
+li.rp h3{font-family:head;text-align:center;color:brown;font-size:25px;}
+li.rp h2{font-family:head;text-align:center;color:green;}
+li.plans{font-family:head;border-color:1px solid green;box-shadow:1px 5px 11px 1px black;margin:10px;font-size:20px;}
+li.plans h3{font-family:head; background-color:red;color:white;text-align:center;background-image: linear-gradient(to right,#B71C1C, #263238);}
+p{font-family:head;}
+h2.day{color:red; background-color:white;}
+h6{display:none;}
+span.qu{color:red;padding:5px;}
+span.space{color:black;padding:5px;}
+span.ans{color:blue;font-family:head;padding:5px;}
+span.des{color:green;}
+span.info{font-family:ib;color:brown;}
+/* end Recharge */
