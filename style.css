@@ -1,51 +1,37 @@
+/* fonts started*/
 @font-face{ font-family:i; src:url(i.ttf)format("truetype") }
+@font-face{ font-family:p; src:url(p.ttf)format("truetype") }
+@font-face{ font-family:j; src:url(j.ttf)format("truetype") }
 @font-face{ font-family:ib; src:url(ib.ttf)format("truetype") }
 @font-face{ font-family:head; src:url(head.ttf)format("truetype") }
+@font-face{ font-family:ab; src:url(ab.ttf)format("truetype") }
+/* fonts end */
+/* common started*/
+body{max-width:100%;}
+html{-webkit-tap-highlight-color:transparent;}
+h6{display:none;}
 #myMenu { list-style-type: none; padding: 0; margin: 0;}
 a{text-decoration:none;}
-#mySearch { width: 90%; margin-left:3px; margin:2px;box-shadow:2px 2px red;border-radius:40px 40px;}
+#mySearch { width: 90%; margin-left:3px; margin:2px;border-radius:40px 40px;border:2px solid blue;}
 input{all:unset;font:16px system-ui;color:#681914;height:100%;width:100%;padding:6px 10px;}
 ::placeholder{color:black;opacity:0.7;}
-header{position:sticky;top:0;width: 100%;
+footer {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color:white;
   font-family:sans-serif-smallcaps;margin:0px;
+text-align: center;
+}
+
+ header{position:sticky;top:0;width: 100%;
+  background-color:white;
+  margin:0px;
 text-align: center;}
-p{font-family:head;}
-div.scrollmenu {
-  background-color: white;
-  overflow: auto;
-  white-space: nowrap;
 
-}
-
-div.scrollmenu a {
-
-  display: inline-block;
-  color: white;;
-  background-color:red;
-  border:1px solid red;
-  border-radius:30px 30px;
-  text-align: center;
-  padding: 14px;
-  margin:4px;
-  text-decoration: none;
-    background-image: conic-gradient(#B71C1C,#BF360C,#880E4F,#1A237E,#3E2723);
-}
-/* Recharge */
-h2 span {
-  border-bottom: 1px solid red;
-  padding-bottom: 10px;
-}
-li.rp h3{font-family:head;text-align:center;color:brown;font-size:25px;}
-li.rp h2{font-family:head;text-align:center;color:green;}
-li.plans{font-family:head;border-color:1px solid green;box-shadow:1px 5px 11px 1px black;margin:10px;font-size:20px;}
-li.plans h3{font-family:head; background-color:red;color:white;text-align:center;background-image: linear-gradient(to right,#B71C1C, #263238);}
-p{font-family:head;}
-h2.day{color:red; background-color:white;}
+h3{font-family:ib;}
 h6{display:none;}
-span.qu{color:red;padding:5px;}
-span.space{color:black;padding:5px;}
-span.ans{color:blue;font-family:head;padding:5px;}
-span.des{color:green;}
-span.info{font-family:ib;color:brown;}
-/* end Recharge */
+#result{color:red;font-family:head;}
+/* common end */
+p{font-family:p;}
