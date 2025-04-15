@@ -7,12 +7,12 @@
 @font-face{ font-family:ab; src:url(ab.ttf)format("truetype") }
 /* fonts end */
 /* common started*/
-body{max-width:100%;}
+body{max-width:100%;margin:20px;}
 html{-webkit-tap-highlight-color:transparent;}
 h6{display:none;}
 #myMenu { list-style-type: none; padding: 0; margin: 0;}
 a{text-decoration:none;}
-#mySearch { width: 90%; margin-left:3px; margin:2px;border-radius:40px 40px;border:2px solid blue;}
+#mySearch { width: 90%; margin-left:3px; margin:2px;border-radius:40px 40px;}
 input{all:unset;font:16px system-ui;color:#681914;height:100%;width:100%;padding:6px 10px;}
 ::placeholder{color:black;opacity:0.7;}
 footer {
@@ -24,14 +24,153 @@ footer {
   font-family:sans-serif-smallcaps;margin:0px;
 text-align: center;
 }
-
+img{width: 100%;
+  height: auto;}
  header{position:sticky;top:0;width: 100%;
   background-color:white;
   margin:0px;
 text-align: center;}
-
+#wishes{font-family:head;font-size:8vw;width:100%;background:linear-gradient(to right,#1B5E20,#BF360C,#880E4F,#004D40);-webkit-background-clip:text; background-clip:text;color:transparent;text-shadow: 0px 5px 10px #000000;}
 h3{font-family:ib;}
 h6{display:none;}
-#result{color:red;font-family:head;}
+marquee p{font-family:i;}
+#result{color:blue;font-family:head;}
 /* common end */
-p{font-family:p;}
+
+/* home */
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin:5px;padding:1px;
+background-image: linear-gradient(to left,white,#E0E0E0);
+border-radius:15px;
+}
+
+.menu-item img {
+
+    width: 30%;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+    
+    
+}
+.menu-item h2{
+font-size:1.9rem;
+font-family:head;
+
+     object-fit: cover;
+    margin-right: 15px;
+    width: 20%;
+   margin-right: 15px;
+}
+.menu-text {
+    flex-grow: 1;
+}
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-family:ib;
+    color:green;
+}
+
+.menu-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: brown;
+    font-family:head;
+}
+
+
+/* menu end */
+
+
+#alert{
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+margin:0;
+   background-image: linear-gradient(to right,#D32F2F,#311B92 );
+    color: #ffffff;
+    visibility: hidden;text-align:center;
+}
+/* about style */
+p.about{font-family:head;text-align:center;font-size:5vw;}
+/* about end */
+/* shop about style */
+div.shop{background-color:#E8EAF6;border-radius:5px;margin:15px;padding:3px;border:2px solid brown;box-shadow:0px 5px 31px 0px black;}
+span.wt{color:green;}
+/* shopabout style end */
+/* content */
+li.content{background-color:#FFFDE7;border-radius:5px;margin:15px;padding:3px;border:2px solid brown;box-shadow:0px 5px 10px 0px black;}
+li.content h3{text-align:center;}
+li.content a{font-family:sans-serif-smallcaps;}
+/* content end */
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: red;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* typing effect */
+#terminal {
+      white-space: pre-wrap;
+      padding: 20px;
+      font-family:ib;
+ font-size:15px;
+   background:linear-gradient(to right,#1B5E20,#BF360C,#880E4F,#004D40);-webkit-background-clip:text; background-clip:text;color:transparent;}
+
+    .progress-bar {
+      background: black;
+      border: 2px solid white;
+      width: 300px;
+      margin-top: 10px;
+    }
+
+    .progress-bar-fill {
+      background: red;
+      height: 10px;
+      width: 0%;
+      transition: width 0.1s;
+    }
+    /* end typing effect */
+    
+/* info home */
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin:5px;padding:1px;
+background-image: linear-gradient(to right,white,#D7CCC8);
+border-radius:20px;}
+
+.info img {
+    width: 20%;
+    height:;
+    object-fit: cover;
+    margin-right: 15px;
+    
+    
+}
+.info-text {
+    flex-grow: 1;
+}
+.info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-family:ib;
+    color:green;
+}
+
+.info p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: brown;
+    font-family:head;
+}
+/* info home end */
+.fire{background-color:red;color:white;font-family:head;}
